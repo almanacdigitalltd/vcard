@@ -9,7 +9,7 @@ namespace JeroenDesloovere\VCard;
  * file that was distributed with this source code.
  */
 
-use Behat\Transliterator\Transliterator;
+// use Behat\Transliterator\Transliterator;
 
 /**
  * VCard PHP Class to generate .vcard files and save them to a file or output as a download.
@@ -604,7 +604,8 @@ class VCard
     private function decode($value)
     {
         // convert cyrlic, greek or other caracters to ASCII characters
-        return Transliterator::transliterate($value);
+        // return Transliterator::transliterate($value);
+        return iconv('UTF-8', 'ISO-8859-1//TRANSLIT//IGNORE', $value);
     }
 
     /**
@@ -929,7 +930,8 @@ class VCard
         $value = strtolower($this->decode($value));
 
         // urlize this part
-        $value = Transliterator::urlize($value);
+        // $value = Transliterator::urlize($value);
+        $value = iconv('UTF-8', 'ISO-8859-1//TRANSLIT//IGNORE', $value)
 
         // overwrite filename or add to filename using a prefix in between
         $this->filename = ($overwrite) ?
