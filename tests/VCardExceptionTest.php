@@ -1,6 +1,6 @@
 <?php
 
-namespace AlmanacDigital\VCard;
+namespace JeroenDesloovere\VCard;
 
 use PHPUnit\Framework\TestCase;
 
@@ -18,7 +18,7 @@ final class VCardExceptionTest extends TestCase
 {
     public function testException()
     {
-        $this->expectException(\AlmanacDigital\VCard\VCardException::class);
+        $this->expectException(\JeroenDesloovere\VCard\VCardException::class);
         throw new VCardException('Testing the VCard error.');
     }
 }

@@ -1,9 +1,9 @@
 {
-    "name": "almanacdigitalltd/vcard",
+    "name": "jeroendesloovere/vcard",
     "type": "library",
     "description": "This VCard PHP class can generate a vCard with some data. When using an iOS device it will export as a .ics file because iOS devices don't support the default .vcf files.",
     "keywords": ["vcard", "generator", ".vcf", "php"],
-    "homepage": "https://github.com/almanacdigitalltd/vcard",
+    "homepage": "https://github.com/jeroendesloovere/vcard",
     "license": "MIT",
     "authors": [
         {
@@ -20,9 +20,9 @@
         "phpunit/phpunit": "^9.3"
     },
     "autoload": {
-        "psr-4": { "AlmanacDigital\\VCard\\": "src/" }
+        "psr-4": { "JeroenDesloovere\\VCard\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "AlmanacDigital\\VCard\\": "tests/" }
+        "psr-4": { "JeroenDesloovere\\VCard\\": "tests/" }
     }
 }

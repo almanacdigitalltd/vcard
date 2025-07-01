@@ -1,6 +1,6 @@
 <?php
 
-namespace AlmanacDigital\VCard;
+namespace JeroenDesloovere\VCard;
 
 /*
  * This file is part of the VCard PHP Class from Jeroen Desloovere.
