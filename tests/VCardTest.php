@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenDesloovere\VCard\tests;
+namespace AlmanacDigital\VCard\tests;
 
 // required to load
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -13,7 +13,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
  */
 
 use Exception;
-use JeroenDesloovere\VCard\VCard;
+use AlmanacDigital\VCard\VCard;
 use PHPUnit\Framework\TestCase;
 
 /**
