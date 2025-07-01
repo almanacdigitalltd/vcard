@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenDesloovere\VCard\tests;
+namespace AlmanacDigital\VCard\tests;
 
-use JeroenDesloovere\VCard\VCard;
-use JeroenDesloovere\VCard\VCardParser;
+use AlmanacDigital\VCard\VCard;
+use AlmanacDigital\VCard\VCardParser;
 use OutOfBoundsException;
 use PHPUnit\Framework\TestCase;
 
